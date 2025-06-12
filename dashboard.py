@@ -75,12 +75,15 @@ if "splash_shown" not in st.session_state:
 
 # --- END SPLASH SCREEN ---
 
-st.markdown("## This dashboard uses dummy data for demonstration purposes.")
+st.markdown(
+    "<h4 style='text-align:center;'>This dashboard uses dummy data for demonstration purposes.</h2>",
+    unsafe_allow_html=True,
+)
 
 st.markdown(
     f"""
     <div style='display: flex; justify-content: center;'>
-    <img src="https://raw.githubusercontent.com/jorge-mata/DataAnalytics_Dashboard_Streamlit/refs/heads/main/NEXUS.png" style="max-width: 60px; width: 100%;" />
+    <img src="https://raw.githubusercontent.com/jorge-mata/DataAnalytics_Dashboard_Streamlit/refs/heads/main/NEXUS.png" style="max-width: 60px; width: 100%" />
     </div>
     """,
     unsafe_allow_html=True,
