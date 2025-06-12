@@ -75,6 +75,8 @@ if "splash_shown" not in st.session_state:
 
 # --- END SPLASH SCREEN ---
 
+st.markdown("## This dashboard uses dummy data for demonstration purposes.")
+
 st.markdown(
     f"""
     <div style='display: flex; justify-content: center;'>
