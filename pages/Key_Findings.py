@@ -1,44 +1,47 @@
 import streamlit as st
 
 def main():
-    st.title("Key Findings")
+    st.markdown(
+        "> **Disclaimer:** All text on this page is unrelated placeholder content to protect confidential information."
+    )
+    st.title("Key Insights")
 
     st.markdown("""
-    This section provides a detailed description of the insights found in the dashboard from Ximple’s current situation. These highlights include information on the customer’s profile, sales, and indicators that may warn the company about profiles that could pose a risk. These findings help the company analyze their current situation and improve risk management.
+    This section summarizes the main observations derived from the Project Nova dashboard. The highlights include trends in operational metrics, resource utilization, and early indicators for process optimization. These insights support continuous improvement and strategic planning.
 
-    **Examples of key findings:**
-    - **Decrease in Loan Requests Over Time**
-    - **Decreasing Repayment Rates**
-    - **Average Purchase Value by Payment Type**
-    - **Number and Quantity by Payment Type**
-    - **Delinquency Rates by Payment Method**
-    - **Repayment Rates by Quarter**
+    **Examples of key insights:**
+    - **Increase in Resource Utilization**
+    - **Improved Process Efficiency**
+    - **Average Task Completion Time by Department**
+    - **Volume and Frequency by Activity Type**
+    - **Error Rates by Process Segment**
+    - **Performance Metrics by Quarter**
     """)
 
     st.markdown("---")
-    st.header("Detailed Insights")
+    st.header("Detailed Observations")
 
     st.markdown("""
-    - **Decrease in Loan Requests Over Time**  
-      On each quarter, there is a steady decline in the number of new loan applications.
+    - **Increase in Resource Utilization**  
+      There has been a consistent rise in the use of available resources across reporting periods.
                 
-    - **Decreasing Repayment Rates**  
-      In the first quarter, repayment rates have fallen from over 80% in early 2024 to around 56%.
+    - **Improved Process Efficiency**  
+      Efficiency metrics show a positive trend, with average completion times decreasing over the last year.
 
-    - **Average Purchase Value by Payment Type**  
-      There is a higher average purchase amounts in payment types like “Document” and “Meses sin Intereses”. While “Efectivo” and electronic wallet transactions have a tendency to be similar.
+    - **Average Task Completion Time by Department**  
+      Certain departments demonstrate faster turnaround times, highlighting best practices for broader adoption.
 
-    - **Number and Quantity by Payment Type**  
-      Cash remains the most common payment method in terms of transaction count, followed by “Préstamo Ximple” and credit cards, revealing client preferences for liquidity.
+    - **Volume and Frequency by Activity Type**  
+      Routine activities remain the most frequent, while specialized tasks show steady growth.
 
-    - **Delinquency Rates by Payment Method**  
-      Loans paid via “Préstamo Ximple” and credit cards exhibit higher delinquency percentages.
+    - **Error Rates by Process Segment**  
+      Segments involving manual intervention exhibit higher error rates, suggesting opportunities for automation.
 
-    - **Repayment Rates by Quarter**  
-      Quarterly repayment performance varies significantly, with the strongest rates in 2024 Q1 (80.9%) and the weakest in 2025 Q1 (56.1%).
+    - **Performance Metrics by Quarter**  
+      Quarterly performance varies, with notable improvements in Q2 and Q4.
     """)
 
 if __name__ == "__main__":
     main()
 
-# This code is for the "Key Findings" page in a Streamlit application.
+# This code is for the "Key Insights" page in a Streamlit

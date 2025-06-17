@@ -92,7 +92,7 @@ st.markdown(
 # HEADER NAVIGATION BAR
 selected = option_menu(
     menu_title=None,
-    options=["Dashboard", "About Ximple", "Machine Learning", "Risk Management", "Main Takeaway", "Meet Nexus"],  # Changed "Key Findings" to "Main Takeaway"
+    options=["Dashboard", "About Nova", "Machine Learning", "Risk Management", "Main Takeaway", "Meet Nexus"],  # Changed "Key Findings" to "Main Takeaway"
     icons=["house", "info-circle", "robot", "person", "book", "people"],
     orientation="horizontal",
     styles={
@@ -189,7 +189,7 @@ if selected == "Dashboard":
         )
         st.table(avg_purchase_df)
 
-elif selected == "About Ximple":
+elif selected == "About Nova":
     page1.main()
 
 elif selected == "Main Takeaway":  # Updated to match the new name

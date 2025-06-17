@@ -8,7 +8,7 @@ def main():
     st.header("Introduction")
     st.write(
         """
-        Our OSF, Ximple, has tasked us with solving the risk prediction problem in a loan environment by integrating machine learning models to identify key characteristics and risk factors affecting loan repayment. 
+        Our OSF has tasked us with solving the risk prediction problem in a loan environment by integrating machine learning models to identify key characteristics and risk factors affecting loan repayment. 
         We are working with two databases containing information such as brands sold by borrowers, total sales, client income, and repayment history.
         """
     )
